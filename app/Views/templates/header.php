@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="static/css/fix.css">
+    <link rel="icon" href="favicon.png" type="image" sizes="16x16">
 
     <title><?= MY_NAME . " - " . $title ?></title>
 </head>
