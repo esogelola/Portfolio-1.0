@@ -23,7 +23,7 @@
     <title><?= MY_NAME ?></title>
 </head>
 
-<body style="width: 100vw;">
+<body style="overflow-x: hidden;">
     <nav class="navbar navbar-expand-lg  main-nav nav-down" id="mainNav">
         <div class="container-fluid">
 
