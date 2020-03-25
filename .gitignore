@@ -130,3 +130,5 @@ nb-configuration.xml
 .htacess
 .well-known
 .cgi-bin
+
+error_404.php

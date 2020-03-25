@@ -23,7 +23,7 @@ class Home extends BaseController
 	{
 		$model = new ProjectModel();
 
-		if ($slug != null && file_exists('static/projects' . $slug)) {
+		if ($slug != null && file_exists('static/projects/' . $slug)) {
 
 
 			$project_name = str_replace('_', ' ', $slug);
