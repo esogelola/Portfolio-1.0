@@ -22,16 +22,24 @@ class Home extends BaseController
 	public function project($slug)
 	{
 		$model = new ProjectModel();
-		$project_name = str_replace('_', ' ', $slug);
-		$description = $model->getDescription($slug);
 
-		$data = [
-			'title' => 'Emmanuel Sogelola',
-			'project' => $model->getProjects($project_name),
-			'description' => $description,
-		];
+		if ($slug != null && file_exists('static/projects' . $slug)) {
 
-		echo view('project', $data);
+
+			$project_name = str_replace('_', ' ', $slug);
+			$description = $model->getDescription($slug);
+			if ($slug)
+				$data = [
+					'title' => 'Emmanuel Sogelola',
+					'project' => $model->getProjects($project_name),
+					'description' => $description,
+				];
+
+			echo view('project', $data);
+		}
+		else{
+			return redirect()->route('/');
+		}
 	}
 	public function sendEmail()
 	{
@@ -52,7 +60,6 @@ class Home extends BaseController
 		} else {
 			echo 'sent';
 			$email->printDebugger();
-
 		}
 
 
