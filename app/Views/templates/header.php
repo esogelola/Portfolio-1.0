@@ -21,6 +21,19 @@
     <link rel="icon" href="favicon.png" type="image" sizes="16x16">
 
     <title><?= MY_NAME ?></title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-30881260-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-30881260-2');
+    </script>
+
 </head>
 
 <body style="overflow-x: hidden;">
