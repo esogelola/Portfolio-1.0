@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg  main-nav nav-down " id="mainNav">
+    <nav class="navbar navbar-expand-lg  main-nav nav-down mr-0" id="mainNav">
         <div class="container-fluid">
 
             <!--<img src="static/img/" alt="" class="img-fluid"> -->

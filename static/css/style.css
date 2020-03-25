@@ -358,10 +358,12 @@ a:hover {
     top: -40px !important;
     transition: top 0.2s ease-out;
 
+
   }
   .navbar.solid {
     background-color: rgba(255,255,255, 0.5);
     box-shadow: 0 0 4px grey;
+
   }
  
   #mainNav {
@@ -369,8 +371,7 @@ a:hover {
     position: sticky;
     top: 0;
     transition: top 0.2s ease-in;
-    
-    width: 100%;
+  
     z-index:999;
   
 }
@@ -440,3 +441,13 @@ a:hover {
     font-weight: 400;
     font-size: 17.5px;
 }
+
+/* change navbar background on collapse */
+@media (max-width: 576px) {
+    .show {
+    background-color: rgba(255,255,255, 0.5);
+    box-shadow: 0 0 4px grey;
+    transition: background-color 0.2s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+    }
+  }
