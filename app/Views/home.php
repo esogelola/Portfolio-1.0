@@ -132,16 +132,16 @@
                 <p class="mb-5">Leave a message below, I'd love to hear from you!</p>
                 <div class="alert fixed-top <?php
 
-                                    if (isset($_COOKIE['email_sent'])) {
-                                        if ($_COOKIE['email_sent'] == true) {
-                                            echo 'alert-success ';
-                                        } else {
-                                            echo 'alert-danger';
-                                        }
-                                    } else {
-                                        echo 'd-none';
-                                    }
-                                    ?>" alert-dismissible fade show" role="alert">
+                                            if (isset($_COOKIE['email_sent'])) {
+                                                if ($_COOKIE['email_sent'] == true) {
+                                                    echo 'alert-success ';
+                                                } else {
+                                                    echo 'alert-danger';
+                                                }
+                                            } else {
+                                                echo 'd-none';
+                                            }
+                                            ?>" alert-dismissible fade show" role="alert">
                     <?php
 
                     if (isset($_COOKIE['email_sent'])) {
