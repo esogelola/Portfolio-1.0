@@ -131,4 +131,6 @@ nb-configuration.xml
 .well-known
 .cgi-bin
 
+app/Config/Email.php
 error_404.php
+
