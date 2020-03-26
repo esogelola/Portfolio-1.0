@@ -1,2 +1,0 @@
-<p>Futura Circular Helvetica and some other random shitaa testing...</p>
-<p><img src="&lt;?= $images[0]['image_path'] ?&gt;" /></p>
