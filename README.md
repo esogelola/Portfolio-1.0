@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Portfolio website developed in PHP to demonstrate my skills and my projects, every project developed can be found on the website.
+Portfolio website developed in PHP with the [CodeIgniter](https://codeigniter.com/) framework to demonstrate my skills and my projects, every project developed can be found on the website.
 
 ### Check it out
 Server is live @ https://esogelola.com/
@@ -20,7 +20,7 @@ Always maintained and updated when neccessary if their are any issues, dont be a
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details
+This project is licensed under the MIT License - see the [license.txt](license.txt) file for details
 
 ## Acknowledgments
 
