@@ -137,4 +137,4 @@ app/Views/errors/html/error_404.php
 phpunit.xml.dist
 
 app/ThirdParty/myth-auth
-static/
+static/projects/
