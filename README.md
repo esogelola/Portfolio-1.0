@@ -4,7 +4,7 @@ Portfolio website developed in PHP using the [CodeIgniter](https://codeigniter.c
 
 ### Check it out
 Website is live @ https://esogelola.com/
-Always maintained and updated when neccessary if their are any issues, dont be afraid to use the contact form on the website.
+Always maintained and updated when neccessary. If their are any issues, dont be afraid to use the contact form on the website.
 
 ## Built With
 
