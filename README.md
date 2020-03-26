@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Portfolio website developed in PHP with the [CodeIgniter](https://codeigniter.com/) framework to demonstrate my skills and my projects, every project developed can be found on the website.
+Portfolio website developed in PHP using the [CodeIgniter](https://codeigniter.com/) framework to demonstrate my skills and my projects, every project developed can be found on the website.
 
 ### Check it out
 Server is live @ https://esogelola.com/
