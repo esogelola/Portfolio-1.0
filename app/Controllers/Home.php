@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\ProjectModel;
+use Exception;
 
 class Home extends BaseController
 {
@@ -45,24 +46,22 @@ class Home extends BaseController
 	{
 		$email = \Config\Services::email();
 
-		// $email->setFrom($this->request->getPost('email'), $this->request->getPost('name'));
-		// $email->setSubject('Email Test');
-		// $email->setMessage('Testing the email class.');
+		$email->setTo("contact@esogelola.com");
+		$email->setFrom($this->request->getPost('email'),$this->request->getPost('name'));
+		$email->setSubject($this->request->getPost('email').' - ' . $this->request->getPost('subject'));
+		$email->setMessage($this->request->getPost('message'));
+		helper('cookie');
 
-		$email->setFrom('emmanuelsogelola@gmail.com', 'Your Name');
-		$email->setTo('emmanuelsogelola@gmail.com');
-
-		$email->setSubject('Email Test');
-		$email->setMessage('Testing the email class.');
-
-		if (!$email->send(false)) {
-			echo 'did not send!';
-		} else {
-			echo 'sent';
-			$email->printDebugger();
-		}
+		if ($email->send()) {
+			setcookie('email_sent', 'true', time()+1);
+            return redirect()->route('/');
+        } else {
+			setcookie('email_sent', 'true', time()+1);
+		   // throw new Exception($email->printDebugger());
+		   return redirect()->route('');
+        }
 
 
-		//return redirect()->route('/');
+		
 	}
 }

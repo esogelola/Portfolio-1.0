@@ -130,6 +130,34 @@
             <div class="col-lg-6">
                 <h2 class="mb-2 float ">Contact</h2>
                 <p class="mb-5">Leave a message below, I'd love to hear from you!</p>
+                <div class="alert fixed-top <?php
+
+                                    if (isset($_COOKIE['email_sent'])) {
+                                        if ($_COOKIE['email_sent'] == true) {
+                                            echo 'alert-success ';
+                                        } else {
+                                            echo 'alert-danger';
+                                        }
+                                    } else {
+                                        echo 'd-none';
+                                    }
+                                    ?>" alert-dismissible fade show" role="alert">
+                    <?php
+
+                    if (isset($_COOKIE['email_sent'])) {
+                        if ($_COOKIE['email_sent'] == true) {
+                            echo 'Email has been sent!';
+                        } else {
+                            echo 'Email could not be sent!';
+                        }
+                    } else {
+                        echo 'd-none';
+                    }
+                    ?>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
