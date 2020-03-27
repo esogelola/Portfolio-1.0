@@ -36,7 +36,7 @@
 
 </head>
 
-<body style="overflow-x: hidden;">
+<body>
     <nav class="navbar navbar-expand-lg  main-nav nav-down" id="mainNav">
         <div class="container-fluid">
 
