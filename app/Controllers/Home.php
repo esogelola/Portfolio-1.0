@@ -56,7 +56,7 @@ class Home extends BaseController
 			setcookie('email_sent', 'true', time()+1);
             return redirect()->route('/');
         } else {
-			setcookie('email_sent', 'true', time()+1);
+			setcookie('email_sent', 'false', time()+1);
 		   // throw new Exception($email->printDebugger());
 		   return redirect()->route('');
         }
