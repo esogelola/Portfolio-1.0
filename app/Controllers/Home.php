@@ -45,18 +45,18 @@ class Home extends BaseController
 	public function sendEmail()
 	{
 		$email = \Config\Services::email();
-		
+
 		$email->setTo("contact@esogelola.com");
 		$email->setFrom($this->request->getPost('email'),$this->request->getPost('name'));
-		$email->setSubject($this->request->getPost('subject'));
+		$email->setSubject($this->request->getPost('email').' - ' . $this->request->getPost('subject'));
 		$email->setMessage($this->request->getPost('message'));
 		helper('cookie');
 
-		if (!$this->validate(['email' => 'required|valid_email', 'subject' => 'required', 'message' => 'required']) && $email->send()) {
+		if ($email->send()) {
 			setcookie('email_sent', 'true', time()+1);
             return redirect()->route('/');
         } else {
-			setcookie('email_sent', 'false', time()+1);
+			setcookie('email_sent', 'true', time()+1);
 		   // throw new Exception($email->printDebugger());
 		   return redirect()->route('');
         }
