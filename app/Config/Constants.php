@@ -77,7 +77,7 @@ defined('EXIT__AUTO_MIN')      || define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 
-defined("MY_NAME") || define("MY_NAME", "EMMANUEL SOGELOLA");
+defined("MY_NAME") || define("MY_NAME", "Emmanuel Sogelola");
 defined('STATICPATH') || define('STATICPATH', realpath($paths->staticDirectory) . DIRECTORY_SEPARATOR);
 
 defined("SUPPORT_EXECUTABLES") || define("SUPPORT_EXECUTABLES",

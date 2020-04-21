@@ -1,6 +1,8 @@
+<!-- Home Page -->
 <section id="home-jumbotron" class="section jumbotron jumbotron-fluid  vertical-center ">
     <div class="container-fluid">
         <div class="row">
+        <!-- Introduction Column (Name, School and Preffered frameworks) -->
             <div class="col-md-6">
                 <h2 class="home-headline clip mb-0">Emmanuel Sogelola</h2>
                 <h2 class="text-color">
@@ -8,11 +10,13 @@
                         <span class="wrap"> </span>
                     </b>
                 </h2>
+                <!--Description -->
                 <p class="mt-3">
                     <span class="ti-book"></span> I'm currently a student at Georgebrown College studying Computer Programming.
                     <br><span class="ti-layers-alt"></span> Proficient in Java, C++, C# and Python.
                     <br><span class="ti-layout"></span> Occasionally developing web apps using various frameworks (Django/Flask, React, ASP.NET, PHP).
                 </p>
+                <!--Contact Icons-->
                 <div class="widget footer-widget mt-0">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item"><a href="https://www.linkedin.com/in/emmanuelsogelola/" target="_blank"><i class="ti-linkedin mr-3"></i></a>
@@ -24,12 +28,13 @@
                 </div>
             </div>
             <div class="col-md-6">
+                <!-- Landing Image-->
                 <img class="heading-img" style="  max-width: 100%;" src="static/img/main_computer.png">
             </div>
         </div>
     </div>
 </section>
-
+<!-- Skills -->
 <section class="section skills-home" id="skills">
     <div class="container">
         <div class="row" class="aos-init aos-animate" data-aos="fade-up">
@@ -38,7 +43,7 @@
                 <p class="mb-5"></p>
             </div>
         </div>
-
+    <!--Row of Skills-->
         <div class="row">
             <div class="col-lg-4">
                 <div class="skills-item mb-5" data-aos="fade-left">
@@ -85,16 +90,18 @@
         </div>
     </div>
 </section>
+<!-- Project Section-->
 <section class="section" id="projects">
     <div class="container">
         <div class="row" class="aos-init aos-animate" data-aos="fade-up">
+        <!-- Projects Header -->
             <div class="col-lg-6">
                 <h2 class="mb-2 float ">Projects</h2>
                 <p class="mb-5"></p>
             </div>
 
 
-
+        <!-- Search Filter -->
             <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="150">
                 <div id="filters" class="filters">
                     <a href="#" data-filter="*" class="active">All</a>
@@ -124,12 +131,15 @@
     </div>
     </div>
 </section>
+<!-- Contact Section-->
 <section class="section " id="Contact">
     <div class="container">
+    
         <div class="row">
             <div class="col-lg-6">
                 <h2 class="mb-2 float ">Contact</h2>
                 <p class="mb-5">Leave a message below, I'd love to hear from you!</p>
+                <!-- Alert Error -->
                 <div class="alert fixed-top <?php
 
                                             if (isset($_COOKIE['email_sent'])) {
@@ -163,6 +173,7 @@
     </div>
 
     <div class="container " id="contactForm">
+    <!-- Contact Form -->
         <form class="email" role="form" method="post" id="contactForm" data-toggle="validator" action="/sendEmail" data-aos="fade-right" data-aos-duration="750">
             <div class="form-group label-floating">
                 <label class="control-label" for="name">Name</label>

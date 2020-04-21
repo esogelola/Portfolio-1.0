@@ -2,23 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+    <meta charset="utf-8">
+    <meta name="keywords" content="Emmanuel Sogelola , Emmanuel, Sogelola, Olayinka, Computer Programmer"/>
+    <meta name="description" content="Emmanuel Sogelola | Currently a student at Georgebrown College studying Computer Programming."/>
+    <meta name="author" content="Emmanuel Sogelola, Ameroft, Esogelola "/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Core CSS (Bootstrap, Themify, Animate, AOS, OWL Carousel, Magnific Popup) -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" ref="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-
+    <!--Link style.css and fix.css to main page-->
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="static/css/fix.css">
-    <link rel="icon" href="favicon.png" type="image" sizes="16x16">
+
+    <link rel="icon" href="favicon.ico" >
 
     <title><?= MY_NAME ?></title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -33,16 +34,14 @@
 
         gtag('config', 'UA-30881260-2');
     </script>
-
 </head>
 
 <body>
+    <!--Navigation menu-->
     <nav class="navbar navbar-expand-lg  main-nav nav-down" id="mainNav">
         <div class="container-fluid">
 
-            <!--<img src="static/img/" alt="" class="img-fluid"> -->
             <a class="navbar-brand" href="#">E/S</a>
-
 
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="ti-align-justify"></span>
