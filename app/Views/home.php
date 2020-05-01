@@ -29,7 +29,7 @@
             </div>
             <div class="col-md-6">
                 <!-- Landing Image-->
-                <img class="heading-img" style="  max-width: 100%;" src="static/img/main_computer.png">
+                <img class="heading-img" style="  max-width: 100%;" src="static/img/main_computer.png" alt="Emmanuel Sogelola, PNG Image">
             </div>
         </div>
     </div>
