@@ -1,7 +1,7 @@
 
 # Portfolio Website
 
-Portfolio website developed in PHP using the [CodeIgniter](https://codeigniter.com/) framework to demonstrate my skills and my projects, every project developed can be found on the website.
+Portfolio website developed in PHP using the [Laravel](https://codeigniter.com/) framework to demonstrate my skills and my projects, every project developed can be found on the website.
 
 ### Check it out
 Website is live @ https://esogelola.com/
@@ -25,6 +25,6 @@ This project is licensed under the MIT License - see the [license.txt](license.t
 
 ## Acknowledgments
 
-* Appreciation to the Code Igniter 3 & 4 Developers
+* Appreciation to the Laravel Developers
 * jasonlong for the caynman template
 
