@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /node_modules
 /public/hot
 /public/storage
@@ -11,7 +11,7 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-=======
+
 #-------------------------
 # Operating Specific Junk Files
 #-------------------------
@@ -152,4 +152,4 @@ phpunit.xml.dist
 
 app/ThirdParty/myth-auth
 static/projects/
->>>>>>> d75d427868434521adedf28bf862c551bd7d2362
+
