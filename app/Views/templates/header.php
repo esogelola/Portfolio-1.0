@@ -49,6 +49,7 @@
 
             <div class="collapse navbar-collapse" id="navbar-main">
                 <ul class="navbar-nav ml-auto">
+          
                     <li class="nav-item"><a class="nav-link" data-scroll href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" data-scroll href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" target="_blank" data-scroll href="static/Emmanuel-Sogelola-Resume.pdf">Resume</a></li>

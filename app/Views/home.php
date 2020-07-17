@@ -113,7 +113,7 @@
             </div>
         </div>
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-            <p class="text-center  <?= count($projects) > 0 ? 'd-none' : ''; ?>">No projects available.</p>
+            <p class="text-center  <?= count($projects) > 0 ? 'd-none' : ''; ?>">No Projects added on the website, checkout out my <a href="https://github.com/esogelola" target="_blank">github</a>.</p>
             <?php foreach ($projects as $project) : ?>
                 <div class="portfolio-item <?php foreach (explode(",", $project['project_type']) as $attr) echo $attr . " " ?> col-sm-6 col-md-4 col-lg-4 mb-4">
                     <a href="<?= base_url("/project/" . url_title($project['project_name'], '_', TRUE)) ?>" class="portfolio-item-wrap">
